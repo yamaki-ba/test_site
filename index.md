@@ -1,5 +1,5 @@
 ---
-title: My page
+title: Ha Ha | Bizness Analytics ! Advanced Analytics Consulting | Big Data Research
 layout: default
 ---
 
