@@ -1,8 +1,7 @@
 ---
-title: Ha Ha | Bizness Analytics ! Advanced Analytics Consulting | Big Data Research
+title: Bizness Analytics ! Advanced Analytics Consulting | Big Data Research
 layout: default
 ---
-<h1> From somewhere else </h1>
 
 <section id="content">
   <div class="container">
