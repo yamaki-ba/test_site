@@ -413,14 +413,13 @@ header h1 a {
 header h1.stuck_head {
   opacity: 0;
 }
-
-section.page1_header {
+.page1_header {
   font-weight: 300;
   font-size: 30px;
   line-height: 36px;
   padding-top: 13px;
 }
-section.page1_header .banner {
+.page1_header .banner {
   background-color: #088389;
   color: #ffffff;
   display: block;
@@ -430,30 +429,28 @@ section.page1_header .banner {
   font-size: 18px;
   padding: 59px 0 14px;
 }
-section.page1_header .banner .fa {
+.page1_header .banner .fa {
   margin-bottom: 27px;
   display: block;
   font-size: 72px;
   line-height: 48px;
 }
-section.page1_header .banner:first-child + .banner {
+.page1_header .banner:first-child + .banner {
   background-color: #00b1ba;
 }
-section.page1_header .banner:first-child + .banner + .banner {
+.page1_header .banner:first-child + .banner + .banner {
   background-color: #00b1ba;
 }
-section.page1_header .banner + .banner + .banner {
+.page1_header .banner + .banner + .banner {
   padding-top: 63px;
   padding-bottom: 13px;
 }
-section.page1_header .banner.maxheight1 .fa {
+.page1_header .banner.maxheight1 .fa {
   margin-bottom: 26px;
 }
-section.page1_header .banner:hover {
+.page1_header .banner:hover {
   background-color: #000000 !important;
 }
-
-
 /****Content****/
 #content {
   background-color: #fff;
