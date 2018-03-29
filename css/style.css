@@ -414,16 +414,13 @@ header h1.stuck_head {
   opacity: 0;
 }
 
-main{
-}
-
-.page1_header {
+section.page1_header {
   font-weight: 300;
   font-size: 30px;
   line-height: 36px;
   padding-top: 13px;
 }
-.page1_header .banner {
+section.page1_header .banner {
   background-color: #088389;
   color: #ffffff;
   display: block;
@@ -433,28 +430,30 @@ main{
   font-size: 18px;
   padding: 59px 0 14px;
 }
-.page1_header .banner .fa {
+section.page1_header .banner .fa {
   margin-bottom: 27px;
   display: block;
   font-size: 72px;
   line-height: 48px;
 }
-.page1_header .banner:first-child + .banner {
+section.page1_header .banner:first-child + .banner {
   background-color: #00b1ba;
 }
-.page1_header .banner:first-child + .banner + .banner {
+section.page1_header .banner:first-child + .banner + .banner {
   background-color: #00b1ba;
 }
-.page1_header .banner + .banner + .banner {
+section.page1_header .banner + .banner + .banner {
   padding-top: 63px;
   padding-bottom: 13px;
 }
-.page1_header .banner.maxheight1 .fa {
+section.page1_header .banner.maxheight1 .fa {
   margin-bottom: 26px;
 }
-.page1_header .banner:hover {
+section.page1_header .banner:hover {
   background-color: #000000 !important;
 }
+
+
 /****Content****/
 #content {
   background-color: #fff;
